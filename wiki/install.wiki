@@ -12,13 +12,13 @@
 ||公用页面||conn.asp||
 ||播放器||player.swf||
 
-下载：[/downloads/]
+下载：[downloads/]
 
 2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
 
 3、根据下方地址的说明，修改配置文件，将domain=”www.yourname.com”换成你的地址。*重要
 
-[/wiki/config]
+[wiki/config]
 
 4、配置服务器的404页面为404.asp *重要
 
