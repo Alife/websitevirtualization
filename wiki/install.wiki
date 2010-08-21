@@ -37,9 +37,11 @@ copyright="<!--Website Virutalization-->"
 ||ngcore|| 你管系统地址，你管系统可以到[http://code.google.com/p/youtubeindex/]下载||
 ||copyright|| 附加信息，可以加入版权信息。||
 
-*请不要使用默认的youtaba.tk地址，请及时更换以免发生灾难性后果*
-
+_请不要使用默认的youtaba.tk地址，请及时更换以免发生灾难性后果_
 </blockquote>
 4、配置服务器的404页面为404.asp *重要
+<blockquote>
+_如果你使用的是虚拟主机或ASP寄存空间，请联系空间提供商查询关于如何自定义404页面的信息。_
+</blockquote>
 
-完成后，虚拟化将开始工作。
+完成以上所有步骤，虚拟化将开始工作。
