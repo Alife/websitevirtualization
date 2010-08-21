@@ -42,7 +42,7 @@ copyright="<!--Website Virutalization-->"
 </blockquote>
 4、配置服务器的404页面为404.asp *重要*
 <blockquote>
-已知支持404页面自定义的虚拟主机控制面板：星外、华众、cPanel、VistaPanel、DirectAdmin
+已知支持404页面自定义的虚拟主机控制面板：Starout（星外）、华众、cPanel、VistaPanel、DirectAdmin'
 
 如果你使用的是其他虚拟主机控制面板，请联系其提供商查询关于如何自定义404页面的信息。
 
