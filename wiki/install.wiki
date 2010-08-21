@@ -16,9 +16,9 @@
 
 2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
 
-3、根据下方地址的说明，修改配置文件，将domain=”www.yourname.com”换成你的地址。*重要
+3、根据下方地址的说明，修改配置文件。*重要
 
-[http://code.google.com/p/websitevirtualization/wiki/config]
+[http://code.google.com/p/websitevirtualization/wiki/config]wiki/config
 
 4、配置服务器的404页面为404.asp *重要
 
