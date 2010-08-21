@@ -38,6 +38,7 @@ copyright="<!--Website Virutalization-->"
 ||copyright|| 附加信息，可以加入版权信息。||
 
 *请不要使用默认的youtaba.tk地址，请及时更换以免发生灾难性后果*
+*你管系统需要您的服务器支持PHP*
 </blockquote>
 4、配置服务器的404页面为404.asp *重要*
 <blockquote>
