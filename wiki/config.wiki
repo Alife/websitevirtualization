@@ -4,7 +4,6 @@
 conn.asp 文件内容大致如下。
 {{{
 <%
-'自定义配置
 domain="www.yourname.com"
 ngcore="http://youtaba.tk/laobubu/ng/lib/vs.php"
 copyright="<!--Website Virutalization-->"
@@ -12,7 +11,6 @@ copyright="<!--Website Virutalization-->"
 
 <%
 Public Function SourceReplace(ByVal restxt) 
-  '替换链接
   For K = 1 To 10
     restxt=replace (restxt,"i"&k&".ytimg.com",domain&"/i"&k)
   Next
@@ -21,7 +19,6 @@ Public Function SourceReplace(ByVal restxt)
   restxt=replace (restxt,"www.youtube.com",domain)
   restxt=replace (restxt,"upload.youtube.com",domain&"/upload")
   restxt=replace (restxt,"youtube.com",domain)
-  '替换特殊地址
   restxt=replace (restxt,"http://"&domain&"/s/yt/img/pixel-vfl73.gif","http://"&domain&"/pixel.gif")
   restxt=replace (restxt,"http:\/\/fq.u1.fyzzz.com/s\/yt\/img\/pixel-vfl73.gif","\/pixel.gif")
   restxt=replace (restxt,"http://"&domain&"/s/yt/img/icn_loading_animated-vfl24663.gif","http://"&domain&"/icn_loading_animated.gif")
@@ -41,7 +38,6 @@ End Function
 
 {{{
 <%
-'自定义配置
 domain="www.yourname.com"
 ngcore="http://youtaba.tk/laobubu/ng/lib/vs.php"
 copyright="<!--Website Virutalization-->"
