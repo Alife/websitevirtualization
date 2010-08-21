@@ -39,7 +39,7 @@ copyright="<!--Website Virutalization-->"
 
 _请不要使用默认的youtaba.tk地址，请及时更换以免发生灾难性后果_
 </blockquote>
-4、配置服务器的404页面为404.asp *重要
+4、配置服务器的404页面为404.asp *重要*
 <blockquote>
 _如果你使用的是虚拟主机或ASP寄存空间，请联系空间提供商查询关于如何自定义404页面的信息。_
 </blockquote>
