@@ -46,6 +46,8 @@ copyright="<!--Website Virutalization-->"
 
 其中 domain 为站点域名。可以为2级或1级域名，尽量不要带“/”；
 
-ngcore 为你管系统地址，你管系统可以到
-这里[http://code.google.com/p/youtubeindex/]
-下载
+ngcore 为你管系统地址，你管系统可以到[http://code.google.com/p/youtubeindex/]下载
+
+*严禁用户用原来的youtaba.tk地址，因为盗用流量是严重侵害youtaba.tk网站利益的行为*
+
+copyright 为附加信息，可以加入版权信息。
