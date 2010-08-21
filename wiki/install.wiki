@@ -18,6 +18,9 @@
 </blockquote>
 
 2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
+<blockquote>
+_该操作可能需要48小时生效_
+</blockquote>
 
 3、根据说明，修改配置文件conn.asp。
 <blockquote>
