@@ -1,0 +1,30 @@
+#labels Featured
+搭建环境：非天朝服务器+ASP+自定义404页面
+
+搭建步骤： 
+
+1、上传四个文件到服务器
+
+代码文件1：index.asp
+
+代码文件2：404.asp
+
+代码文件3：conn.asp
+
+播放器文件：player.swf
+
+2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
+
+3、修改配置第三个文件中的域名，将domain=”www.yourname.com”换成你的地址。
+
+{{{
+<%
+'自定义配置
+domain="www.yourname.com"
+ngcore="http://youtaba.tk/laobubu/ng/lib/vs.php"
+copyright="<!--Website Virutalization-->"
+%>
+}}}
+4、配置服务器的404页面为404.asp 
+
+完成后，虚拟化将开始工作。
