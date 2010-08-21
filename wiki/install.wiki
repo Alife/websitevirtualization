@@ -7,6 +7,7 @@
 
 1、上传四个文件到服务器
 
+<blockquote>
 ||主要页面||index.asp||
 ||请求页面||404.asp||
 ||公用页面||conn.asp||
@@ -14,6 +15,7 @@
 
 下载源代码：[http://code.google.com/p/websitevirtualization/downloads/list downloads/list]
 （一般选带有featured的）
+</blockquote>
 
 2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
 
