@@ -12,14 +12,14 @@
 ||公用页面||conn.asp||
 ||播放器||player.swf||
 
-下载源代码：[http://code.google.com/p/websitevirtualization/downloads/list label]/downloads/list
+下载源代码：[http://code.google.com/p/websitevirtualization/downloads/list downloads/list]
 （一般选带有featured的）
 
 2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
 
 3、根据下方地址的说明，修改配置文件。*重要
 
-[http://code.google.com/p/websitevirtualization/wiki/config label]wiki/config
+[http://code.google.com/p/websitevirtualization/wiki/config wiki/config]
 
 4、配置服务器的404页面为404.asp *重要
 
