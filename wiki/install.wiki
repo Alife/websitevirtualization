@@ -24,16 +24,17 @@ _该操作可能需要48小时生效_
 
 3、根据说明，修改配置文件conn.asp。
 <blockquote>
-conn.asp中可以自定义的区域为
+conn.asp（3.1版）中可以自定义的区域为
 {{{
 <%
-domain="www.yourname.com"
+'domain="www.yourdomain.com"
+domain=Request.ServerVariables("SERVER_NAME")
 ngcore="http://youtaba.tk/laobubu/ng/lib/vs.php"
 copyright="<!--Website Virutalization-->"
 %>
 }}}
 其中各变量用途如下：
-||domain|| 站点域名。可以为2级或1级域名，尽量不要带“/”||
+||domain|| 站点域名。可以为2级或1级域名，尽量不要带“/”||*在3.1版中该项可不需自定义*||
 ||ngcore|| 你管系统地址，你管系统可以到[http://code.google.com/p/youtubeindex/]下载||
 ||copyright|| 附加信息，可以加入版权信息。||
 
