@@ -7,24 +7,22 @@
 
 1、上传四个文件到服务器
 
-<blockquote>
-||主要页面||index.asp||
-||请求页面||404.asp||
-||公用页面||conn.asp||
-||播放器||player.swf||
+   ||主要页面||index.asp||
+   ||请求页面||404.asp||
+   ||公用页面||conn.asp||
+   ||播放器||player.swf||
 
-下载源代码：[http://code.google.com/p/websitevirtualization/downloads/list downloads/list]
-（一般选带有featured的）
-</blockquote>
+   下载源代码：[http://code.google.com/p/websitevirtualization/downloads/list downloads/list]（一般选带有featured的）
+
 
 2、向NS添加一条A记录（或Cname），可以为二级域名，指向存放该代码的服务器。
-<blockquote>
-_该操作可能需要48小时生效。_
-</blockquote>
+
+   _该操作可能需要48小时生效。_
+
 
 3、根据说明，修改配置文件conn.asp。
-<blockquote>
-conn.asp（3.1版）中可以自定义的区域为
+
+   conn.asp（3.1版）中可以自定义的区域为
 {{{
 <%
 'domain="www.yourdomain.com"
@@ -44,25 +42,23 @@ copyright="<!--Website Virutalization-->"
 
  * 你管系统可以到[http://code.google.com/p/youtubeindex/]下载
 
-_你管系统需要您的服务器支持PHP_
-</blockquote>
+   _你管系统需要您的服务器支持PHP_
+
 4、配置服务器的404页面为404.asp *重要*
-<blockquote>
-已知支持404页面自定义的虚拟主机控制面板：Starout（星外）、华众、cPanel、VistaPanel、DirectAdmin
 
-如果你使用的是其他虚拟主机控制面板，请联系其提供商查询关于如何自定义404页面的信息。
+   您需要配置服务器的404页面为404.asp。
 
-_我们不推荐您使用虚拟主机或网页空间，如有可能，请更换为其他服务方式。_
-</blockquote>
+   已知支持404页面自定义的虚拟主机控制面板：{{{Starout（星外）、华众、cPanel、VistaPanel、DirectAdmin}}}
 
-5、配置服务器的默认页面 *可选*
-<blockquote>
-已知支持404页面自定义的虚拟主机控制面板：Starout（星外）、华众、cPanel、VistaPanel、DirectAdmin
+   如果你使用的是其他虚拟主机控制面板，请联系其提供商查询关于如何自定义404页面的信息。
 
-如果你使用的是其他虚拟主机控制面板，请联系其提供商查询关于如何自定义404页面的信息。
+   _我们不推荐您使用虚拟主机，如有可能，请更换为其他服务方式。_
 
-_我们不推荐您使用虚拟主机或网页空间，如有可能，请更换为其他服务方式。_
-</blockquote>
+5、配置服务器的默认主页面 *可选*
+
+  如果您完成以上所有步骤，而该系统依旧无法工作，则您必须检查服务器的默认主页面设置。请将其设置为index.asp。
+
+   如果您使用服务器不能支持自定义默认页面，请您将index.asp重命名为您服务器默认的默认主页面（如default.asp）。
 
 
 完成以上所有步骤，虚拟化将开始工作。
