@@ -22,27 +22,22 @@
 
 3、根据说明，修改配置文件conn.asp。
 
-   conn.asp（3.1版）中可以自定义的区域为
+   conn.asp（3.2版）中可以自定义的区域为
 {{{
 <%
 'domain="www.yourdomain.com"
 domain=Request.ServerVariables("SERVER_NAME")
-ngcore="http://youtaba.tk/laobubu/ng/lib/vs.php"
 copyright="<!--Website Virutalization-->"
 %>
 }}}
 其中各变量用途如下：
-||domain|| ~~站点域名。可以为2级或1级域名。~~||在3.1版中该项可不需自定义||
-||ngcore|| 你管系统地址||请不要使用默认的youtaba.tk地址，请及时更换以免发生灾难性后果||
+||domain||~~站点域名。可以为2级或1级域名。~~||在3.1版中该项可不需自定义||
+||ngcore||~~你管系统地址~~||请不要使用默认的youtaba.tk地址，请及时更换以免发生灾难性后果||在3.2版中该项已经删除||
 ||copyright|| 附加信息，可以加入版权信息。||
 
  * 3.1版本中，站点域名改用自动获取。
    # 如果您必须将该系统部署于站点根目录，通过类似{{{http://yourname.yourdomain.com/}}}的地址可以访问到该系统，则您不需要作任何修改。
    # 如果您将该系统其部署于类似于{{{http://yourname.yourdomain.com/test/}}}的地址，则您需要将{{{domain=Request.ServerVariables("SERVER_NAME")}}}修改为{{{domain="yourname.yourdomain.com/test"}}}（结尾不需要“/”）
-
- * 你管系统可以到[http://code.google.com/p/youtubeindex/]下载
-
-   _你管系统需要您的服务器支持PHP_
 
 4、配置服务器的404页面为404.asp *重要*
 
