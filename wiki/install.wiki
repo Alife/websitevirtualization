@@ -36,8 +36,8 @@ copyright="<!--Website Virutalization-->"
 ||copyright|| 附加信息，可以加入版权信息。||
 
  * 3.1版本中，站点域名改用自动获取。
-   # 如果您必须将该系统部署于站点根目录，通过类似{{{http://yourname.yourdomain.com/}}}的地址可以访问到该系统，则您不需要作任何修改。
-   # 如果您将该系统其部署于类似于{{{http://yourname.yourdomain.com/test/}}}的地址，则您需要将{{{domain=Request.ServerVariables("SERVER_NAME")}}}修改为{{{domain="yourname.yourdomain.com/test"}}}（结尾不需要“/”）
+   # 如果您将该系统部署于站点根目录，通过类似{{{http://yourname.yourdomain.com/}}}的地址可以访问到该系统，则您不需要作任何修改。
+   # 如果您将该系统其部署于类似于{{{http://yourname.yourdomain.com/test/}}}的地址，则您需要将{{{domain=Request.ServerVariables("SERVER_NAME")}}}这一行替换为{{{domain="yourname.yourdomain.com/test"}}}（结尾不需要“/”）
 
 4、配置服务器的404页面为404.asp *重要*
 
